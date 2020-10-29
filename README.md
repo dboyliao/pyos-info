@@ -2,7 +2,7 @@
 
 ```bash
 # via pip
-$ pip install os-info
+$ pip install pyos-info
 # via setup.py
 $ python setup.py install
 ```
@@ -10,5 +10,21 @@ $ python setup.py install
 # Usage
 
 ```
-$ os-info
+$ pyos-info
 ```
+
+On `macOS`
+
+![mac](images/mac.png)
+
+---
+
+On `Linux`
+
+![linux](images/linux.png)
+
+---
+
+On `Window`
+
+I don't use `Windows` :)

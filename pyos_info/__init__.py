@@ -39,5 +39,5 @@ def _linux_info():
     with os_release.open("r") as fid:
         for line in fid.readlines():
             k, v = line.split("=", maxsplit=1)
-            info[k.lower()] = v
+            info[k.lower()] = v.strip()
     return info
